@@ -1,0 +1,122 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(204, 43%, 93%) ;
+    font-family:'karla';
+    font-size: 16px;
+}
+.main_1{
+    border: 1px solid white;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    width: 675px;
+    height: 150px;
+    background-color: white;
+    padding-left: 25px;
+    color:  hsl(204, 43%, 93%) ;
+    padding-top: 10px;
+
+}
+h1{ font-size: 16px;
+    color: hsl(179, 62%, 43%);
+}
+.main_1 p{color: hsl(71, 73%, 54%);
+    font-size: 16px;
+}
+.main_2{
+    padding-top: 10px;
+    border: 1px solid  hsl(178, 67%, 41%);
+    width: 324px;
+    height: 190px;
+    color:hsl(204, 43%, 93%);
+    background-color: hsl(178, 67%, 41%);
+    padding-left: 25px;
+    border-bottom-left-radius: 10px;
+}
+sup{
+    padding-left: 5px; 
+    font-size:15px;
+}
+.main_2 strong{
+    font-size: x-large;
+    color: white;
+}
+.main_2 h2{
+    font-size: medium;
+    color: white;
+}
+.sign_up{
+    border: 1px solid hsl(71, 73%, 54%);
+    text-align: center;
+    width: 70%;
+    height:30px;
+    border-radius: 5px;
+    background-color:hsl(71, 73%, 54%);
+    padding-top: 7px;
+    color:white;
+}
+.main_3{
+    padding-top: 10px;
+    border: 1px solid hsl(179, 62%, 43%);
+    border-bottom-right-radius:10px ;
+    width:324px;
+    height: 190px;
+    padding-left: 25px;
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%) ;
+}
+.main_3 h1{
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:375px) {  
+.main_1{
+    border: 1px solid white;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    width: 274px;
+    height: 190px;
+    background-color: white;
+    padding-left: 25px;
+    color:  hsl(204, 43%, 93%) ;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}.form{
+    flex-direction: column;
+}
+.main{
+    height: 700px;
+}
+.main_2{border: 1px solid  hsl(178, 67%, 41%);
+    width: 274px;
+    height: 190px;
+    border-bottom-left-radius:0px ;
+}
+.main_3{ border: 1px solid hsl(179, 62%, 43%);
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius: 10px;
+    width:274px;
+    height: 190px;}
+.sign_up{
+    border: 1px solid hsl(71, 73%, 54%);
+    width: 90%;
+    height:30px;
+    border-radius: 5px;
+    padding-top: 7px;
+    color: hsl(204, 43%, 93%) ;
+}
+sup{
+    padding-left: 5px; ;
+}
+}
